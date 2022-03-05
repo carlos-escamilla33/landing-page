@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    font-family: Sans-serif;
+    
+}
+
+.header-container {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo {
+    font-size: 24px;
+    color: F9FAF8;
+    margin-left: 100px;
+}
+
+.links {
+    display: flex;
+    gap: 10px;
+    margin-right: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
