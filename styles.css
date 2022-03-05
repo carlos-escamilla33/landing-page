@@ -6,7 +6,7 @@ body {
 
 /* Header Section */
 
-.header-container {
+#header-container {
     background-color: #1F2937;
     color: white;
     display: flex;
@@ -31,7 +31,9 @@ a {
     color: #E5E7EB;
 }
 
-.intro-container {
+/* Intro Section */
+
+#intro-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -84,7 +86,7 @@ img {
 
 /* Info Section */
 
-.info-container {
+#info-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -120,7 +122,7 @@ img {
 
 /* Quote Section */
 
-.quote-container {
+#quote-container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -145,7 +147,7 @@ img {
 
 /* action section */
 
-.action-container {
+#action-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -185,4 +187,15 @@ div .action-title {
     color: #E5E7EB;
     font-weight: 900;
     cursor: pointer;
+}
+
+/* Footer Section */
+
+#footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 30px;
+    margin-top: auto;
 }
