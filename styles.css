@@ -142,3 +142,12 @@ img {
     align-self: flex-end;
     font-weight: 900;
 }
+
+/* action section */
+
+.action-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+}
