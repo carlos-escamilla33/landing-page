@@ -151,3 +151,38 @@ img {
     align-items: center;
     padding: 80px;
 }
+
+.action-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    width: 70%;
+    background-color: #3882F6;
+    border-radius: 10px;
+}
+
+div .action-title {
+    width: 300px;
+}
+
+.action-title .title {
+    color: #E5E7EB;
+}
+
+.action-title .description {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.action-btn {
+    padding: 8px;
+    width: 110px;
+    border: 2px solid #E5E7EB;
+    border-radius: 10px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-weight: 900;
+    cursor: pointer;
+}
