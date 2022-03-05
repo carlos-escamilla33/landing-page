@@ -8,7 +8,8 @@ body {
     background-color: #1F2937;
     color: white;
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-around;
     align-items: center;
     padding: 20px;
 }
@@ -16,13 +17,11 @@ body {
 .logo {
     font-size: 24px;
     color: F9FAF8;
-    margin-left: 100px;
 }
 
 .links {
     display: flex;
     gap: 10px;
-    margin-right: 100px;
 }
 
 a {
@@ -32,5 +31,76 @@ a {
 
 .intro-container {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1F2937;
+    padding-bottom: 40px;
+    padding-top: 20px;
 }
 
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    text-align:center;
+    width: 300px;
+}
+
+.intro h1 {
+    font-size: 40px;
+    font-weight: 900;
+    color: #F9FAF8;
+    margin-bottom: 0;
+}
+
+.intro p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top: 0;
+}
+
+.sign-up-btn {
+    background-color: #3883F6;
+    color: white;
+    border: 0;
+    padding: 10px;
+    width: 100px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+
+.img-container {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 250px;
+    border-radius: 100%;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-img-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.info-title {
+    font-size: 33px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.info-img {
+    width: 150px;
+    height: 150px;
+    border: 2px solid #3882F6;
+    border-radius: 20px;
+}
